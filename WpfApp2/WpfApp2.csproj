@@ -85,6 +85,9 @@
     <Compile Include="Ksiazki.cs">
       <DependentUpon>ModelKsiegarni.tt</DependentUpon>
     </Compile>
+    <Compile Include="Logowanie.xaml.cs">
+      <DependentUpon>Logowanie.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ModelKsiegarni.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -93,8 +96,8 @@
     <Compile Include="Pracownicy.cs">
       <DependentUpon>ModelKsiegarni.tt</DependentUpon>
     </Compile>
-    <Compile Include="Rejestracja.xaml.cs">
-      <DependentUpon>Rejestracja.xaml</DependentUpon>
+    <Compile Include="Rejestracaja.xaml.cs">
+      <DependentUpon>Rejestracaja.xaml</DependentUpon>
     </Compile>
     <Compile Include="Widok.xaml.cs">
       <DependentUpon>Widok.xaml</DependentUpon>
@@ -102,19 +105,15 @@
     <Compile Include="Wypozyczenia.cs">
       <DependentUpon>ModelKsiegarni.tt</DependentUpon>
     </Compile>
-    <Page Include="Logowanie.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Logowanie.xaml.cs">
-      <DependentUpon>Logowanie.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Rejestracja.xaml">
+    <Page Include="Logowanie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rejestracaja.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,7 +171,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="ModelKsiegarni.Context.tt">

@@ -15,18 +15,15 @@ using System.Windows.Shapes;
 namespace WpfApp2
 {
     /// <summary>
-    /// Logika interakcji dla klasy Window2.xaml
+    /// Logika interakcji dla klasy Widok.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Widok : Window
     {
-        public Window2()
+        public Widok()
         {
             InitializeComponent();
         }
 
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
+       
     }
 }
