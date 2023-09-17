@@ -95,7 +95,7 @@ namespace WpfApp2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Projekt zajął w sumie 6h. Dziękuję <3");
+            MessageBox.Show("Zostałem pokonany przez środowisko");
         }
     }
 }
